@@ -1,8 +1,15 @@
-# Install Pytorch with and without GPU
+# Install Tensorflow with and without GPU
 
 [GPU Guide Link](https://www.tensorflow.org/install/source#linux)
 
 ## Tensorflow  with GPU
+
+### Tensorflow 2.6 python 3.8
+
+```shell
+$ pip install tensorflow==2.6
+$ conda install cudatoolkit=11.2 cudnn=8.1
+```
 
 ### Tensorflow 2.5  python 3.6-3.9
 
@@ -48,6 +55,12 @@ $ conda install tensorflow_gpu=1.0.0-1.12
 
 |NOTE: It is beneficial to use tensorflow CPU when not using GPU because it is optimized for multi core CPU as well as reduces the installation size. |
 |---|
+
+### Tensorflow 2.6 python 3.8
+
+```shell
+$ pip install tensorflow==2.5
+```
 
 ### Tensorflow 2.5  python 3.6-3.9
 
